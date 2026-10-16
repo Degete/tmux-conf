@@ -19,13 +19,15 @@
 ## Getting started
 
 ```sh
-cd ~
-git clone --recursive git@github.com:degete/tmux-conf.git ~/.tmux
-ln -s .tmux/tmux.conf .tmux.conf
-~/.tmux/plugins/tpm/scripts/install_plugins.sh
+$ cd ~
+$ git clone git@github.com:degete/tmux-conf.git ~/.tmux
+$ ln -s .tmux/tmux.conf .tmux.conf
 ```
 
+[TPM](https://github.com/tmux-plugins/tpm) and all plugins are installed automatically the first time tmux starts.
+
 ## Prefix
+
 By default, the `prefix` is: <kbd>⌃</kbd> + <kbd>a</kbd>.
 
 However, the default <kbd>⌃</kbd> + <kbd>b</kbd> can be used instead, to do so uncomment it on [general.conf](./config/general.conf)
@@ -35,10 +37,12 @@ However, the default <kbd>⌃</kbd> + <kbd>b</kbd> can be used instead, to do so
 ### [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 
 #### Plugins list
+
 * Edit [plugins.conf](./config/plugins.conf)
 * Add plugins e.g.: `set -g @plugin '<plugin>'`
 
 #### Commands
+
 `prefix` + <kbd>I</kbd> install plugins and reload tmux environment
 
 `prefix` + <kbd>U</kbd> update plugins
@@ -46,9 +50,11 @@ However, the default <kbd>⌃</kbd> + <kbd>b</kbd> can be used instead, to do so
 `prefix` + <kbd>⌥</kbd> + <kbd>u</kbd> remove plugins
 
 #### [Tmux Sensible](https://github.com/tmux-plugins/tmux-sensible)
+
 A set of tmux options that should be acceptable to everyone.
 
 #### [Tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+
 Restore tmux environment after system restart.
 
 `prefix` + <kbd>⌃</kbd> + <kbd>s</kbd> save environment
@@ -56,22 +62,25 @@ Restore tmux environment after system restart.
 `prefix` + <kbd>⌃</kbd> + <kbd>r</kbd> restore environment
 
 #### [Tmux Continuum](https://github.com/tmux-plugins/tmux-continuum)
+
 Continuous saving of tmux environment, automatic tmux start when computer/server is turned on and automatic restore when tmux is started.
 
 ### Mappings
 
 #### General
+
 <kbd>⌥</kbd> + <kbd>r</kbd> reload tmux configuration
 
 `prefix` + <kbd><</kbd> show tmux session menu
 
 `prefix` + <kbd>></kbd> reload tmux pane menu
 
-
 #### Sessions
+
 <kbd>⌥</kbd> + <kbd>N</kbd> rename session
 
 #### Windows
+
 <kbd>⌥</kbd> + <kbd>t</kbd> new window
 
 <kbd>⌥</kbd> + <kbd>W</kbd> kill window
@@ -83,6 +92,7 @@ Continuous saving of tmux environment, automatic tmux start when computer/server
 <kbd>⌥</kbd> + <kbd>n</kbd> rename window
 
 #### Panes
+
 <kbd>⌥</kbd> + <kbd>w</kbd> kill pane
 
 <kbd>⌥</kbd> + <kbd>d</kbd> split pane vertical
@@ -105,11 +115,11 @@ If you find this project useful, consider giving it a ★ on [GitHub](https://gi
 
 ### See also
 
-- [gitconfig](https://github.com/degete/gitconfig): ⚙️ Git config files
-- [tmux-conf](https://github.com/degete/tmux-conf): ⚙️ tmux config files
-- [vimrc](https://github.com/degete/vimrc): ⚙️ Vim config files
-- [nvim-config](https://github.com/degete/nvim-config): ⚙️ Neovim config files
-- [brewfile](https://github.com/degete/brewfile): ⚙️ brewfile config file for macOS 🍏
+* [gitconfig](https://github.com/degete/gitconfig): ⚙️ Git config files
+* [tmux-conf](https://github.com/degete/tmux-conf): ⚙️ tmux config files
+* [vimrc](https://github.com/degete/vimrc): ⚙️ Vim config files
+* [nvim-config](https://github.com/degete/nvim-config): ⚙️ Neovim config files
+* [brewfile](https://github.com/degete/brewfile): ⚙️ brewfile config file for macOS 🍏
 
 ## License
 

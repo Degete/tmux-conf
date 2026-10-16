@@ -1,2 +1,5 @@
-# tmux-resurrect
+# TPM and plugins (installed automatically)
+plugins/
+
+# TMUX environments
 resurrect

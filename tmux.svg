@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <title>tmux.svg</title>
+  <g id="vlpa">
+    <g id="vlpb">
+      <g id="vlpc">
+        <path d="M0 116 L160 116 L160 145 C160 153.286 153.278 160 145 160 L15 160 C6.717 160 0 153.293 0 145 Z M0 116 L160 116 L160 146 L0 146 Z" fill="#1bb91f" fill-rule="evenodd"/>
+      </g>
+      <path id="vlpd" d="M83 70 L83 0 L77 0 L77 146 L83 146 L83 76 L160 76 L160 70 Z M0 15.01 C0 6.722 6.722 0 15 0 L145 0 C153.283 0 160 6.725 160 15.01 L160 146.01 L0 146.01 Z" fill="#3c3c3c" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

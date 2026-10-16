@@ -1,8 +1,22 @@
-![tmux](tmux.png)
+<picture>
+  <source srcset="./tmux.svg"/>
+  <img
+    alt="tmux logo"
+    src="./tmux.svg"
+    height="128px"
+    width="128px"
+    align="left"
+  />
+</picture>
 
-# TMUX Configuration
+### tmux.conf by Degete
 
-## Installation:
+> *TMUX configuration for everyone*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/degete/tmux-conf)
+
+## Getting started
 
 ```sh
 cd ~
@@ -84,3 +98,21 @@ Continuous saving of tmux environment, automatic tmux start when computer/server
 <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>→</kbd> move to right pane
 
 <kbd>⌥</kbd> + <kbd>z</kbd> zoom pane
+
+## Self Promotion
+
+If you find this project useful, consider giving it a ★ on [GitHub](https://github.com/degete/tmux-conf). You can also follow [Degete](https://github.com/degete) for more projects on [GitHub](https://github.com/degete/).
+
+### See also
+
+- [gitconfig](https://github.com/degete/gitconfig): ⚙️ Git config files
+- [tmux-conf](https://github.com/degete/tmux-conf): ⚙️ tmux config files
+- [vimrc](https://github.com/degete/vimrc): ⚙️ Vim config files
+- [nvim-config](https://github.com/degete/nvim-config): ⚙️ Neovim config files
+- [brewfile](https://github.com/degete/brewfile): ⚙️ brewfile config file for macOS 🍏
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+Copyright (c) David Tort.
